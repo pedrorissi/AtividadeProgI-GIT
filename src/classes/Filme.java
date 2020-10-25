@@ -62,7 +62,7 @@ public class Filme {
 	//MÉTODOS
 	@Override
 	public String toString() {
-		return "Filme: " + titulo + "\n Descrição: " + descricao + "\n Duração: " + duracaoEmMinutos + "m" + "\n \n Diretor:  " + this.diretor.getNome() + "\n Tempo de Experiência: " + this.diretor.getTempoDeExperiencia() + "anos\n Local de Origem: " + this.diretor.getLocalDeOrigem() + "\n---\n";
+		return "\n---\nFilme: " + titulo + "\n Descrição: " + descricao + "\n Duração: " + duracaoEmMinutos + "m" + "\n \n Diretor:  " + this.diretor.getNome() + "\n Tempo de Experiência: " + this.diretor.getTempoDeExperiencia() + "anos\n Local de Origem: " + this.diretor.getLocalDeOrigem() + "\n";
 
 	}
 	
